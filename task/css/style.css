@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    height: auto;
+    box-sizing: border-box;
+    /* background-color: lightblue; */
+    text-align: center;
+}
+#kitabAdi,#muellifi,#neshirIli ,#cildNomresi ,#seyifeSayi  {
+    /* margin: 5px 650px 2px 550px; */
+    width: 250px;
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 15px ;
+    font-style: italic;
+    
+   
+    
+} 
+
+div{
+    display: flex;
+    margin-top: 15px;
+}
+label{
+    text-align: center;
+
+}
+tbody{
+    background-color: darkgray;
+}

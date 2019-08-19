@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div>
+<label>
+    <input type="text"  placeholder="Kitab adi daxil edin:" id="kitabAdi"value="">
+</label> 
+<hr>
+<label>
+        <input type="text"  placeholder="Kitab muellifi daxil edin:" id="muellifi" value="">
+    </label>
+    <hr>
+    <label>
+            <input type="text"  placeholder="Kitab neshir ili daxil edin:" id="neshirIli" value="">
+        </label>
+        <hr>
+        <label>
+                <input type="text"  placeholder="Kitab cild nomresi daxil edin:" id="cildNomresi" value="">
+            </label>
+            <hr>
+            <label>
+                    <input type="text"  placeholder="Kitab seyife sayi daxil edin:" id="seyifeSayi" value="">
+                </label>
+                <hr>
+    
+   
+    </div>
+    <button onclick="addBooks()"> 
+            Elave et
+            </button>
+            <button onclick="saveData()">
+                    Yadda Saxla
+                </button>
+                <button onclick="loadData()"> Oxu </button>
+        <hr>
+        <table id="books" class="table table-hover table-bordered" border="3" width="100%">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>kitab adi</th>
+                    <th>muellifi</th>
+                    <th>neshir ili</th>
+                    <th> cild nomresi</th>
+                    <th>seyife sayi</th>
+                    <th id="full">fullname</th>
+                </tr>
+            </thead>
+            <tbody id='color'>
+
+            </tbody>
+        </table>
+        
+          <script src="js/custom.js"></script> 
+</body>
+</html>
